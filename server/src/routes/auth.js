@@ -1,7 +1,8 @@
-const { userExists, createUser } = require("../users");
+const { userExists, createUser } = require("../lib/users");
 const Iron = require("@hapi/iron");
+const { isLoggedIn } = require("../middleware/auth");
 
-const login = (app) => {
+const auth = (app) => {
   app.post("/api/login", async (req, res) => {
     const { email, password } = req.body;
     if (!email || !password) {
@@ -39,8 +40,11 @@ const login = (app) => {
       }
     }
   });
+
+  app.post("/api/logout", isLoggedIn, (req, res) => {
+    res.setHeader("authorization", "");
+    res.send({ success: true, message: "Logged out successfully!" });
+  });
 };
 
-module.exports = {
-  login,
-};
+module.exports = auth;
