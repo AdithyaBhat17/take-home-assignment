@@ -1,9 +1,7 @@
-const { users } = require("./_data");
+const { users } = require("../_data");
 
-const userExists = (email, password) => {
-  return users.some(
-    (user) => user.email === email && user.password === password
-  );
+const userExists = (email) => {
+  return users.some((user) => user.email === email);
 };
 
 const createUser = (email, password) => {
