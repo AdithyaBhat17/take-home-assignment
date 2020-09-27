@@ -27,6 +27,7 @@ Please note that we mainly take into consideration the following evaluation crit
 - Your app is responsive enough on mobiles, tablets and computers.
 - How clean, organized and optimized your code is.
 - How good your unit test code coverage is (80% is the minimum requirement)
+- We prefer you use Function components with React hooks over class components.
 
 ## Libraries allowed
 
