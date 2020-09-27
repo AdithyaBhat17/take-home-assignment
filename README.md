@@ -1,9 +1,15 @@
 ### Take home assignment - React.js @ Betsol
 
+- Duration - 48 hours
+
 Hello there 👋 Thank you for taking this interview 🙏 and congratulations on making it this far 🎉.  
 Your mission should you choose to accept it, is to create a user interface for an instance management dashboard.
 
-    Prototype gif goes here
+![Instances USD](/mockups/instances-usd.png)
+
+[**View Prototype on Figma**](https://www.figma.com/proto/K8O85fQvyMgMRo40nyZ1LD/Take-home-assignment-Betsol?node-id=1%3A157&scaling=min-zoom)
+
+[**Visit Figma file for Style Guides**](https://www.figma.com/file/K8O85fQvyMgMRo40nyZ1LD/Take-home-assignment-Betsol?node-id=1%3A157)
 
 ## Goals
 
@@ -26,7 +32,7 @@ Please note that we mainly take into consideration the following evaluation crit
 - How close your app is to the mock-ups?
 - Your app is responsive enough on mobiles, tablets and computers.
 - How clean, organized and optimized your code is.
-- How good your unit test code coverage is (80% is the minimum requirement)
+- (Bonus) How good your unit test code coverage is (80% is the minimum requirement)
 - We prefer you use Function components with React hooks over class components.
 
 ## Libraries allowed
@@ -68,3 +74,7 @@ You can add your unit tests in `client/src/__tests__` folder.
 ## API
 
 Refer https://www.notion.so/adithyanr/56ce60f0152e4d3bae081bc6865c4b4e?v=6e32b8cd1a984e6a986bbc8a213e13b5 for API documentation.
+
+## Issues
+
+Feel free to create an issue on this GitHub repository if you have any questions regarding this assignment.
