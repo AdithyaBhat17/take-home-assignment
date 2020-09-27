@@ -18,8 +18,6 @@ Our end goal here is to develop an interface where
 - Users can login / signup to the app.
 - View a list of AWS instances. ([Instance interface](https://www.notion.so/adithyanr/Instance-interface-9a2283e449474dbf81b90d42ce5afb12))
 - Start / Stop a particular instance.
-  - Disable stop button when instance is already stopped.
-  - Disable start button when instance is running.
 - Get an overview of hourly cost for both running and stopped instances (In both USD and INR)
   - Show total cost per hour for running instances and stopped instances.
     - Each instance has a `costPerHour` value in USD.
