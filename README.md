@@ -21,7 +21,7 @@ Our end goal here is to develop an interface where
 - Get an overview of hourly cost for both running and stopped instances (In both USD and INR)
   - Show total cost per hour for running instances and stopped instances.
     - Each instance has a `costPerHour` value in USD.
-    - Provide a toggle where users can toggle between USD and INR as their currency. The `costPerHour` should be converted to INR rate if USD is selected as the currency. Use 1 INR = 0.015 USD as the conversion rate.
+    - Provide a toggle where users can toggle between USD and INR as their currency. The `costPerHour` should be converted to INR rate if INR is selected as the currency. Use 1 INR = 0.015 USD as the conversion rate.
 - Logout of the app.
 
 ## Evaluation
