@@ -10,6 +10,9 @@ module.exports = {
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
   },
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
+  collectCoverage: true,
+  coverageReporters: ["lcov"],
+  coverageDirectory: "coverage",
   collectCoverageFrom: ["src/**/*.js", "src/**/*.jsx", "src/*.js"],
   coverageThreshold: {
     global: {
