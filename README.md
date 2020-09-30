@@ -38,6 +38,7 @@ Please note that we mainly take into consideration the following evaluation crit
 
 You can use the following libraries if you wish to.
 
+- React Router
 - Material UI / Chakra UI
 - SWR (https://swr.now.sh)
 - React Query
