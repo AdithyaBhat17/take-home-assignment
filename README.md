@@ -18,11 +18,10 @@ Our end goal here is to develop an interface where
 - Users can login / signup to the app.
 - View a list of AWS instances. ([Instance interface](https://www.notion.so/adithyanr/Instance-interface-9a2283e449474dbf81b90d42ce5afb12))
 - Start / Stop a particular instance.
-  - Disable stop button when instance is already stopped.
-  - Disable start button when instance is running.
 - Get an overview of hourly cost for both running and stopped instances (In both USD and INR)
-  - Each instance has a `costPerHour` value in USD.
-  - Provide a toggle where users can toggle between USD and INR as their currency. The `costPerHour` should be converted to INR rate if USD is selected as the currency. Use 1 INR = 0.015 USD as the conversion rate.
+  - Show total cost per hour for running instances and stopped instances.
+    - Each instance has a `costPerHour` value in USD.
+    - Provide a toggle where users can toggle between USD and INR as their currency. The `costPerHour` should be converted to INR rate if INR is selected as the currency. Use 1 INR = 0.015 USD as the conversion rate.
 - Logout of the app.
 
 ## Evaluation
@@ -39,6 +38,7 @@ Please note that we mainly take into consideration the following evaluation crit
 
 You can use the following libraries if you wish to.
 
+- React Router
 - Material UI / Chakra UI
 - SWR (https://swr.now.sh)
 - React Query
