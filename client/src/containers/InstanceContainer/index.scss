@@ -1,0 +1,9 @@
+@import "../../styles/common.scss";
+
+.instanceContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-width: 700px;
+	padding: 0px 88px;
+}

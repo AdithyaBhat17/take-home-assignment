@@ -1,0 +1,23 @@
+@import "../../styles//common.scss";
+
+.instanceHeader {
+	width: 100%;
+	background: $PRIMARY_COLOR;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 88px;
+	min-height: 73px;
+	color: $BACKGROUND_COLOR;
+
+	&__title {
+		font-size: $FONT_SIZE_24;
+		font-weight: $FONT_WEIGHT_600;
+	}
+
+	&__logout {
+		font-size: $FONT_SIZE_18;
+		cursor: pointer;
+		font-weight: $FONT_WEIGHT_600;
+	}
+}

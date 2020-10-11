@@ -1,0 +1,10 @@
+@import "../../styles/common.scss";
+
+.instancePage {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	min-width: 700px;
+	background: $BACKGROUND_COLOR;
+}

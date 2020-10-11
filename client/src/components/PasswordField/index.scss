@@ -1,0 +1,14 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/common.scss";
+
+.field {
+	&__label {
+		@include field__label;
+	}
+	&--password {
+		width: 100%;
+		& input {
+			@include field;
+		}
+	}
+}

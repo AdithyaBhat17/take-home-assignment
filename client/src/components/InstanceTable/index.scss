@@ -1,0 +1,106 @@
+@import "../../styles//common.scss";
+
+.instanceTable {
+	padding: 27px 43px;
+	background: $WHITE;
+	border-radius: $BORDER_RADIUS;
+	border: 1px solid $OUTLINE_COLOR;
+	&__title {
+		color: $TEXT_COLOR;
+		font-size: $FONT_SIZE_24;
+		font-weight: $FONT_WEIGHT_600;
+	}
+	&__table {
+		border-radius: $BORDER_RADIUS;
+		// overflow: hidden;
+		margin-top: 24px;
+		&__tableHeader {
+			display: flex;
+			height: 52px;
+			color: $TEXT_COLOR;
+			align-items: center;
+			background: $TABLE_HEADER_COLOR;
+			padding: 0px 4%;
+			&__head {
+				flex: 1;
+				font-size: $FONT_SIZE_18;
+				text-align: center;
+				font-weight: $FONT_WEIGHT_500;
+			}
+		}
+		&__tableBody {
+			&__row {
+				display: flex;
+				height: 52px;
+				align-items: center;
+				padding: 0px 4%;
+				&__column {
+					flex: 1;
+					font-weight: $FONT_WEIGHT_400;
+					font-size: $FONT_SIZE_16;
+					text-align: center;
+				}
+			}
+			&__row:nth-child(odd) {
+				background: $BUTTON_COLOR;
+			}
+			&__row:nth-child(even) {
+				background: $LIGHT_GREY;
+			}
+		}
+	}
+}
+
+.instanceTable__table__tableHeader__head.head__1 {
+	text-align: start;
+}
+
+.instanceTable__table__tableHeader__head.head__2 {
+	text-align: start;
+}
+
+.instanceTable__table__tableHeader__head.head__3 {
+	text-align: end;
+}
+
+.instanceTable__table__tableHeader__head.head__5 {
+	text-align: end;
+}
+
+.instanceTable__table__tableBody__row__column.column__1 {
+	text-align: start;
+}
+
+.instanceTable__table__tableBody__row__column.column__2 {
+	text-align: start;
+}
+
+.instanceTable__table__tableBody__row__column.column__3 {
+	text-align: end;
+}
+
+.instanceTable__table__tableBody__row__column.column__5 {
+	text-align: end;
+}
+
+.instanceTable__table__tableBody__row__column.column__4 {
+	position: relative;
+	left: 5px;
+	&.status--running {
+		color: $SUCCESS_COLOR;
+	}
+	&.status--stopped {
+		color: $FAILURE_COLOR;
+	}
+}
+
+.instanceTable__table__tableBody__row__column.column__5 {
+	cursor: pointer;
+	text-decoration: underline;
+	&.action--start {
+		color: $SUCCESS_COLOR;
+	}
+	&.action--stop {
+		color: $FAILURE_COLOR;
+	}
+}

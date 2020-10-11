@@ -1,0 +1,44 @@
+@import "../../styles//common.scss";
+
+.loginForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 40vw;
+	min-width: 500px;
+	padding: 35px 55px;
+	background: $WHITE;
+	border-radius: $BORDER_RADIUS;
+
+	&__header {
+		font-size: $FONT_SIZE_30;
+		font-weight: $FONT_WEIGHT_600;
+		margin-bottom: 32px;
+
+		&__error {
+			font-size: $FONT_SIZE_14;
+			color: $FAILURE_COLOR;
+			font-weight: $FONT_WEIGHT_400;
+		}
+	}
+
+	&__email {
+		width: 100%;
+	}
+
+	&__password {
+		width: 100%;
+	}
+
+	&__button {
+		width: 100%;
+	}
+
+	&__createAccount {
+		margin-top: 18px;
+		color: $PRIMARY_COLOR;
+		font-weight: $FONT_WEIGHT_400;
+		cursor: pointer;
+	}
+}

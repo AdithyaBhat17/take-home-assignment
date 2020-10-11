@@ -1,0 +1,55 @@
+@import "../../styles/common.scss";
+
+.instanceInfo {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 2.5%;
+	height: 121px;
+	align-items: center;
+	background: $WHITE;
+	border-radius: $BORDER_RADIUS;
+	border: 1px solid $OUTLINE_COLOR;
+	margin: 41px 0px;
+	&__costDetails {
+		display: flex;
+		&__cost {
+			color: $TEXT_COLOR;
+			&:nth-child(2) {
+				margin-left: 54px;
+			}
+			&--running {
+				&__title {
+					font-size: $FONT_SIZE_24;
+					font-weight: $FONT_WEIGHT_600;
+				}
+				&__label {
+					font-size: $FONT_SIZE_18;
+					font-weight: $FONT_WEIGHT_500;
+					margin-top: 10px;
+				}
+			}
+			&--stopped {
+				&__title {
+					font-size: $FONT_SIZE_24;
+					font-weight: $FONT_WEIGHT_600;
+				}
+				&__label {
+					font-size: $FONT_SIZE_18;
+					font-weight: $FONT_WEIGHT_500;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	&__currencyConvertor {
+		display: flex;
+		align-items: center;
+		&__value {
+			padding: 10px;
+			color: $TEXT_COLOR;
+			font-size: $FONT_SIZE_24;
+			font-weight: $FONT_WEIGHT_600;
+		}
+	}
+}
