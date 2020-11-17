@@ -29,6 +29,7 @@ Our end goal here is to develop an interface where
 Please note that we mainly take into consideration the following evaluation criteria:
 
 - How close your app is to the mock-ups?
+- You've only used the libraries mentioned below.
 - Your app is responsive enough on mobiles, tablets and computers.
 - How clean, organized and optimized your code is.
 - (Bonus) How good your unit test code coverage is (80% is the minimum requirement)
@@ -39,10 +40,13 @@ Please note that we mainly take into consideration the following evaluation crit
 You can use the following libraries if you wish to.
 
 - React Router
+- Styled components
 - Material UI / Chakra UI
 - SWR (https://swr.now.sh)
 - React Query
 - React Table
+
+**NOTE: We deduct points if you fail to follow the instructions clearly (i.e., using additional libraries or not following the goals and evaluation criteria)**
 
 ## Prerequisites
 
