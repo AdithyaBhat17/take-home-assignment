@@ -28,6 +28,7 @@ Our end goal here is to develop an interface where
 
 Please note that we mainly take into consideration the following evaluation criteria:
 
+- The app should run with minimal setup (`yarn && yarn start or npm i && npm start`) without crashing.
 - How close your app is to the mock-ups?
 - You've only used the libraries mentioned below.
 - Your app is responsive enough on mobiles, tablets and computers.
